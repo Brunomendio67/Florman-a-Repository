@@ -223,3 +223,33 @@ footer {
 }
 
 
+@media (max-width: 600px) {
+
+    .encabezado {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px;
+    }
+
+    .menu-principal {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categorias {
+        gap: 15px;
+    }
+
+    .contenido {
+        width: 92%;
+    }
+
+    .producto {
+        width: 100%;
+    }
+
+    .banner {
+        height: 180px;
+    }
+}
