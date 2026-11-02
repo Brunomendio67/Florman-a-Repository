@@ -23,10 +23,3 @@ botonesComprar.forEach(function(boton) {
 });
 
 
-const iniciarSesion = document.getElementById("iniciarSesion");
-
-iniciarSesion.addEventListener("click", function() {
-
-    alert("Bienvenido a la tienda de flores");
-
-});
